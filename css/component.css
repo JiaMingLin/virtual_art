@@ -280,11 +280,18 @@ input.gn-search:focus {
 		overflow: hidden;
 }
 
+.gn-icon-menu{
+	position: fixed;
+	height:120px;
+	width: 190px;
+	z-index: 101;
+}
+
 .gn-icon-menu::before {
-		margin-left: -15px;
-		vertical-align: -2px;
-		width: 30px;
-		height: 3px;
+/*		margin-left: -15px;
+		vertical-align: -2px;*/
+		/*width: 30px;
+		height: 60px;*/
 		background: #5f6f81;
 		box-shadow: 0 3px white, 0 -6px #5f6f81, 0 -9px white, 0 -12px #5f6f81;
 		content: '';
