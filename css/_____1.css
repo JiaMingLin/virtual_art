@@ -1343,6 +1343,10 @@
 	width: 100vw;
 	z-index: 99;
 }
+.project_title{
+	position: fixed;
+	z-index: 99;
+}
 .down_arrow{
 	position: fixed;
 	height: 89.676px;
