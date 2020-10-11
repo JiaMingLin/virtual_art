@@ -568,6 +568,7 @@
 	stroke-linecap: butt;
 	stroke-miterlimit: 10;
 	shape-rendering: auto;
+	z-index: 99;
 }
 .Path_84 {
 	overflow: visible;
@@ -577,6 +578,7 @@
 	left: 482.139px;
 	top: 1609px;
 	transform: matrix(1,0,0,1,0,0);
+	z-index: 99;
 }
 #The_visible__and__the_invisibl {
 	left: 246.884px;
@@ -1323,4 +1325,10 @@
 	font-size: 37px;
 	color: rgba(255,255,255,1);
 	letter-spacing: 0.5px;
+}
+.cross_bar{
+	position: fixed;
+	height: 100vh;
+	z-index: 99;
+	
 }
