@@ -569,6 +569,7 @@
 	stroke-miterlimit: 10;
 	shape-rendering: auto;
 	z-index: 99;
+
 }
 .Path_84 {
 	overflow: visible;
@@ -576,9 +577,11 @@
 	width: 162.139px;
 	height: 89.676px;
 	left: 482.139px;
-	top: 1609px;
+	/*top: 1609px;*/
 	transform: matrix(1,0,0,1,0,0);
 	z-index: 99;
+	display: inline-block;
+	vertical-align: bottom;
 }
 #The_visible__and__the_invisibl {
 	left: 246.884px;
@@ -1326,9 +1329,22 @@
 	color: rgba(255,255,255,1);
 	letter-spacing: 0.5px;
 }
+
+#content_container{
+	display: inline-block;
+	height: 100vh;
+	width:100vw;	
+}
 .cross_bar{
 	position: fixed;
-	height: 100vh;
+	height: 145px;
+	width: 100vw;
 	z-index: 99;
-	
+}
+.down_arrow{
+	position: fixed;
+	height: 89.676px;
+	width: 100vw;
+	z-index: 100;
+	bottom: 20px;
 }
