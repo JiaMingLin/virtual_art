@@ -10,6 +10,22 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Reckoner';
+	src:url(../fonts/reckoner/Reckoner.ttf) format('truetype'),
+		url(../fonts/reckoner/Reckoner.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ReckonerBold';
+	src:url(../fonts/reckoner/Reckoner_Bold.ttf) format('truetype'),
+		url(../fonts/reckoner/Reckoner_Bold.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body {
 	/*background: #34495e;*/
 }
