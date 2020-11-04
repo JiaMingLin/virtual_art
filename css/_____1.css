@@ -14,11 +14,13 @@
 	border: none;
 }
 #_1 {
-	position: absolute;
+	/*position: absolute;*/
 	width: 1121.221px;
 	height: 9162.84px;
 	background-color: rgba(255,255,255,1);
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 	--web-view-name: 工作區域 1;
 	--web-view-id: _1;
 	--web-scale-on-resize: true;
@@ -33,69 +35,45 @@
 	overflow: visible;
 }
 #Group_16 {
-	position: absolute;
+	/*position: absolute;*/
 	width: 1119px;
 	height: 1626px;
 	/*left: 3px;*/
-	top: 145px;
+	/*top: 145px;*/
+	background-image: url("../img/Group_15.png");
 	overflow: visible;
 }
-#Group_15 {
-	position: absolute;
-	width: 1119px;
-	height: 1626px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
+
 #Group_18 {
-	position: absolute;
+	/*position: absolute;*/
 	width: 1118px;
 	height: 2062px;
-	left: 3px;
-	top: 1771px;
+	/*left: 3px;*/
+	/*top: 1771px;*/
+	background-image: url("../img/Group_17.png");
 	overflow: visible;
 }
-#Group_17 {
-	position: absolute;
-	width: 1118px;
-	height: 2062px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
+
 #Group_20 {
-	position: absolute;
+	/*position: absolute;*/
 	width: 1119px;
 	height: 1626px;
-	left: 2px;
-	top: 3833px;
+	/*left: 2px;*/
+	/*top: 3833px;*/
+	background-image: url("../img/Group_19.png");
 	overflow: visible;
 }
-#Group_19 {
-	position: absolute;
-	width: 1119px;
-	height: 1626px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
+
 #Group_22 {
-	position: absolute;
+	/*position: absolute;*/
 	width: 1121px;
 	height: 1627px;
-	left: 2px;
-	top: 5464px;
+	/*left: 2px;*/
+	/*top: 5464px;*/
+	background-image: url("../img/Group_21.png");
 	overflow: visible;
 }
-#Group_21 {
-	position: absolute;
-	width: 1121px;
-	height: 1627px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
+
 #Rectangle_23 {
 	opacity: 0.53;
 	fill: rgba(53,50,47,1);
@@ -113,7 +91,7 @@
 	width: 322.459px;
 	height: 322.46px;
 	left: 398.154px;
-	top: 1216.217px;
+	top: 1071.217px;
 	overflow: visible;
 }
 #Group_23 {
@@ -410,11 +388,13 @@
 }
 #Rectangle_24 {
 	fill: rgba(0,0,0,1);
+	width: 100vw;
+	height: 145px;
 }
 .Rectangle_24 {
 	position: absolute;
 	overflow: visible;
-	width: 1121px;
+	width: 100vw;
 	height: 145px;
 	/*left: 3px;*/
 	top: 0px;
@@ -587,7 +567,7 @@
 }
 #The_visible__and__the_invisibl {
 	left: 246.884px;
-	top: 409.494px;
+	top: 264.494px;
 	position: absolute;
 	overflow: visible;
 	width: 950px;
@@ -601,7 +581,7 @@
 	letter-spacing: 0.5px;
 }
 #RESISTglobalization {
-	transform: translate(-1572px, 0px) matrix(1,0,0,1,1306.4922,774.3027) rotate(90deg);
+	transform: translate(-1572px, -145px) matrix(1,0,0,1,1306.4922,774.3027) rotate(90deg);
 	transform-origin: center;
 	left: 0px;
 	top: 0px;
@@ -619,7 +599,8 @@
 	color: rgba(255,255,255,1);
 	letter-spacing: 0.5px;
 }
-#Group_32 {
+
+/*#Group_32 {
 	position: absolute;
 	width: 1121px;
 	height: 2067px;
@@ -874,11 +855,11 @@
 	left: 945.617px;
 	top: 592px;
 	transform: matrix(1,0,0,1,0,0);
-}
+}*/
 #Music_Protrait {
 	left: 151.396px;
-	top: 2122.123px;
-	position: absolute;
+	top: 351.123px;
+	position: relative;
 	overflow: visible;
 	width: 1044px;
 	white-space: nowrap;
@@ -891,11 +872,11 @@
 	letter-spacing: 0.5px;
 }
 #Group_35 {
-	position: absolute;
+	position: relative;
 	width: 322.46px;
 	height: 322.46px;
 	left: 672.27px;
-	top: 2982.771px;
+	top: 600px;
 	overflow: visible;
 }
 #Group_34 {
@@ -1011,11 +992,11 @@
 	transform: matrix(1,0,0,1,0,0);
 }
 #Group_38 {
-	position: absolute;
+	position: relative;
 	width: 322.46px;
 	height: 322.46px;
 	left: 729.719px;
-	top: 5016.295px;
+	top: 600px;
 	overflow: visible;
 }
 #Group_37 {
@@ -1132,8 +1113,8 @@
 }
 #Text_here_Text_here__Text_here {
 	left: 197.52px;
-	top: 2328.523px;
-	position: absolute;
+	top: 450px;
+	position: relative;
 	overflow: hidden;
 	width: 749.48px;
 	height: 512.0743408203125px;
@@ -1148,11 +1129,11 @@
 	letter-spacing: 0.5px;
 }
 #Wu_LI_LAB {
-	left: 297.542px;
-	top: 4047.945px;
-	position: absolute;
+	left: 350px;
+	top: 351.123px;
+	position: relative;
 	overflow: visible;
-	width: 797px;
+	width: 1044px;
 	white-space: nowrap;
 	text-align: left;
 	font-family: ReckonerBold;
@@ -1164,8 +1145,8 @@
 }
 #Text_here_Text_here__Text_here_c {
 	left: 198.665px;
-	top: 4236.345px;
-	position: absolute;
+	top: 450px;
+	position: relative;
 	overflow: hidden;
 	width: 749.48px;
 	height: 512.0743408203125px;
@@ -1180,11 +1161,11 @@
 	letter-spacing: 0.5px;
 }
 #Group_41 {
-	position: absolute;
+	position: relative;
 	width: 322.46px;
 	height: 322.46px;
 	left: 747.273px;
-	top: 6635.139px;
+	top: 600px;
 	overflow: visible;
 }
 #Group_40 {
@@ -1301,8 +1282,8 @@
 }
 #Sites__Spaces {
 	left: 161.264px;
-	top: 5787.937px;
-	position: absolute;
+	top: 351px;
+	position: relative;
 	overflow: visible;
 	width: 1147px;
 	white-space: nowrap;
@@ -1316,8 +1297,8 @@
 }
 #Text_here_Text_here__Text_here_dh {
 	left: 210.388px;
-	top: 5985.338px;
-	position: absolute;
+	top: 450px;
+	position: relative;
 	overflow: hidden;
 	width: 749.48px;
 	height: 512.0743408203125px;
@@ -1332,9 +1313,9 @@
 	letter-spacing: 0.5px;
 }
 
-#content_container{
-	display: inline-block;
-	height: 100vh;
+#cross_bar{
+	/*display: inline-block;*/
+	/*height: 100vh;*/
 	width:100vw;	
 }
 .cross_bar{
