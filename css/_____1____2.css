@@ -62,152 +62,123 @@
 	transform: matrix(1,0,0,1,0,0);
 }
 #About {
-	left: 446.728px;
-	top: 254.402px;
+	left: 40vw;
+	top: 10vh;
 	position: absolute;
 	overflow: visible;
-	width: 283px;
+	/*width: 283px;*/
 	white-space: nowrap;
 	text-align: left;
 	font-family: ReckonerBold;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 100.41648864746094px;
+	font-size: 10vw;
 	color: rgba(61,61,61,1);
 	letter-spacing: 0.5px;
 }
-#Line_7 {
-	fill: transparent;
-	stroke: rgba(153,153,153,1);
-	stroke-width: 10px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 10;
-	shape-rendering: auto;
-}
-.Line_7 {
-	overflow: visible;
+#About_hr{
 	position: absolute;
-	width: 677.562px;
-	height: 10px;
-	left: 323.438px;
-	top: 884.672px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#MUSIC_PROTRAIT {
-	left: 387.82px;
-	top: 774.473px;
-	position: absolute;
-	overflow: visible;
-	width: 925px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: ReckonerBold;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 100.41648864746094px;
-	color: rgba(61,61,61,1);
-	letter-spacing: 0.5px;
-}
-#Line_8 {
-	fill: transparent;
-	stroke: rgba(153,153,153,1);
-	stroke-width: 10px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 10;
-	shape-rendering: auto;
-}
-.Line_8 {
-	overflow: visible;
-	position: absolute;
-	width: 677.562px;
-	height: 10px;
-	left: 323.438px;
-	top: 1041.672px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#WU_LI_LAB {
-	left: 492.97px;
-	top: 934.473px;
-	position: absolute;
-	overflow: visible;
-	width: 538px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: ReckonerBold;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 100.41648864746094px;
-	color: rgba(61,61,61,1);
-	letter-spacing: 0.5px;
-}
-#Line_9 {
-	fill: transparent;
-	stroke: rgba(68,68,68,1);
-	stroke-width: 10px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 10;
-	shape-rendering: auto;
-}
-.Line_9 {
-	overflow: visible;
-	position: absolute;
-	width: 892px;
-	height: 10px;
-	left: 109.127px;
-	top: 533.672px;
-	transform: matrix(1,0,0,1,0,0);
+    top: 16vh;
+    right: 37vw;
+    height: 3px;
+    width: 85vw;
+    background-color: black;
 }
 #ARTIST {
-	left: 435.282px;
-	top: 420.195px;
+	left: 39vw;
+	top: 20vh;
 	position: absolute;
 	overflow: visible;
-	width: 381px;
+	/*width: 381px;*/
 	white-space: nowrap;
 	text-align: left;
 	font-family: ReckonerBold;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 100.41648864746094px;
+	font-size: 10vw;
 	color: rgba(61,61,61,1);
 	letter-spacing: 0.5px;
 }
-#Line_10 {
-	fill: transparent;
-	stroke: rgba(68,68,68,1);
-	stroke-width: 10px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 10;
-	shape-rendering: auto;
-}
-.Line_10 {
-	overflow: visible;
+#ARTIST_hr{
 	position: absolute;
-	width: 892px;
-	height: 10px;
-	left: 109.127px;
-	top: 702.672px;
-	transform: matrix(1,0,0,1,0,0);
+    top: 26vh;
+    right: 37vw;
+    height: 3px;
+    width: 85vw;
+    background-color: black;
 }
+
 #ART_WORK {
-	left: 382.513px;
-	top: 589.195px;
+	left: 34vw;
+	top: 30vh;
 	position: absolute;
 	overflow: visible;
-	width: 574px;
+	/*width: 574px;*/
 	white-space: nowrap;
 	text-align: left;
 	font-family: ReckonerBold;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 100.41648864746094px;
+	font-size: 10vw;
 	color: rgba(61,61,61,1);
 	letter-spacing: 0.5px;
 }
+#ART_WORK_hr{
+	position: absolute;
+    top: 36vh;
+    right: 37vw;
+    height: 3px;
+    width: 85vw;
+    background-color: black;
+}
+#MUSIC_PROTRAIT {
+	left: 35vw;
+	top: 42vh;
+	position: absolute;
+	overflow: visible;
+	/*width: 925px;*/
+	white-space: nowrap;
+	text-align: left;
+	font-family: ReckonerBold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10vw;
+	color: rgba(61,61,61,1);
+	letter-spacing: 0.5px;
+}
+#MUSIC_PROTRAIT_hr{
+	position: absolute;
+    top: 48vh;
+    right: 37vw;
+    height: 3px;
+    width: 65vw;
+    background-color: #89867e;
+}
+#WU_LI_LAB {
+	left: 44vw;
+	top: 52vh;
+	position: absolute;
+	overflow: visible;
+	/*width: 538px;*/
+	white-space: nowrap;
+	text-align: left;
+	font-family: ReckonerBold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10vw;
+	color: rgba(61,61,61,1);
+	letter-spacing: 0.5px;
+}
+#WU_LI_LAB_hr{
+	position: absolute;
+    top: 58vh;
+    right: 37vw;
+    height: 3px;
+    width: 65vw;
+    background-color: #89867e;
+}
+
+
 #Path_20 {
 	fill: rgba(0,0,0,0);
 	stroke: rgba(255,255,255,1);
@@ -228,10 +199,13 @@
 }
 #Group_8 {
 	/*position: absolute;*/
-	width: 523.394px;
-	height: 43.152px;
+	background-image: url(../img/project_title.png);
+	background-size: 60vw;
+	height: 10vh;
+	width: 60vw;
+	/*height: 43.152px;
 	left: 317.405px;
-	top: 54.672px;
+	top: 54.672px;*/
 	overflow: visible;
 }
 #Path_21 {

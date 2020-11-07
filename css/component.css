@@ -95,7 +95,7 @@
 
 .gn-menu-wrapper {
 		position: fixed;
-		top: 145px;
+		top: 12vh;
 		bottom: 0;
 		left: 0;
 		overflow: hidden;
@@ -282,8 +282,8 @@ input.gn-search:focus {
 
 .gn-icon-menu{
 	position: fixed;
-	height:120px;
-	width: 190px;
+	height:inherit;
+	width: 10%;
 	z-index: 101;
 }
 
