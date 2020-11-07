@@ -8,6 +8,10 @@
  * Copyright 2013, Codrops
  * http://www.codrops.com
  */
+
+function changeIFrame(location){
+	window.frames["content_container"].location = location;
+}
 ;( function( window ) {
 	
 	'use strict';
@@ -24,6 +28,8 @@
 		this._init();
 	}
 
+
+
 	gnMenu.prototype = {
 		_init : function() {
 			this.trigger = this.el.querySelector( 'div.gn-icon-menu' );
@@ -37,6 +43,21 @@
 				self._closeMenu();
 				this.removeEventListener( self.eventtype, self.bodyClickFn );
 			};
+
+			$(".go_space").click(function(e){
+				var loc = "landing_page.html";
+				if(e.target.id == "MUSIC_PROTRAIT"){
+					loc = "music_protrait.html";
+				}else if(e.target.id == "WU_LI_LAB"){
+					loc = "hsin_space/panorama/";
+				}
+				self._closeMenu();
+				changeIFrame(loc);
+			});
+
+			$("#project_title").click(function(){
+				changeIFrame("landing_page.html");
+			});
 		},
 		_initEvents : function() {
 			var self = this;
@@ -71,7 +92,6 @@
 		// 	classie.remove( this.menu, 'gn-open-part' );
 		// },
 		_openMenu : function() {
-			console.log("open");
 			if( this.isMenuOpen ) return;
 			classie.add( this.trigger, 'gn-selected' );
 			this.isMenuOpen = true;
@@ -79,7 +99,6 @@
 			// this._closeIconMenu();
 		},
 		_closeMenu : function() {
-			console.log("close");
 			if( !this.isMenuOpen ) return;
 			classie.remove( this.trigger, 'gn-selected' );
 			this.isMenuOpen = false;

@@ -621,25 +621,21 @@
 }
 
 #Group_27 {
-	position: absolute;
-	width: 37vw;
-	height: 25vh;
+	/*width: 37vw;
+	height: 25vh;*/
 /*	left: 10vw;
 	top: 14vh;*/
 	overflow: visible;
 }
 #Group_26 {
-	position: absolute;
-	width: 37vw;
-	height: 25vh;
-	left: 0px;
-	top: 0px;
+	/*width: 37vw;
+	height: 25vh;*/
 	overflow: visible;
 }
 #Music__Protrait {
-	left: 10%;
-    top: 10%;
-    position: absolute;
+	left: 5%;
+    top: 5%;
+    position: relative;
     overflow: visible;
     /* width: 290px; */
     white-space: nowrap;
@@ -654,9 +650,9 @@
     letter-spacing: 0.5px;
 }
 #Kuo_Pei-Chi {
-	left: 10%;
-    top: 60%;
-    position: absolute;
+	left: 5%;
+    top: 25%;
+    position: relative;
     overflow: visible;
     /* width: 271px; */
     white-space: nowrap;
@@ -1024,7 +1020,7 @@
     width: 30%;
     right: 35%;
 }
-.sub_link{
+.go_space{
 	position: absolute;
     bottom: 13%;
     /* z-index: 200; */
@@ -1032,26 +1028,46 @@
     width: 25%;
     right: 15%;
 }
-.about_container{
-	width: 36vw;
-	height: 25vh;
-}
 
-.about_table{
-	height: 90%;
+#about_table{
+	table-layout: fixed;
+	height: 80%;
     width: 90%;
-    left: 5%;
-    top: 5%;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.about_table_row{
-	height: 29vh;
+    top: 18%;
 }
 
 .about_table_col{
-	width: 45vw
+	overflow: hidden;
+}
+
+.about_container_img{
+	height: 20vh;
+	position: relative;
+}
+.about_container_img img{
+	height:20vh;
+	right: 15px;
+    position: absolute;
+}
+
+.about_container_text{
+	height: 20vh;
+	border-style: solid;
+    border-color: rgba(255,255,255,0.95);
+    border-width: medium;
+    width: 85%;
+    position: relative;
+}
+
+.about_container_text div{
+	width: 100%;
+}
+.about_triangle{
+	width: 15%;
+    bottom: 5px;
+    right: 10px;
+    position: absolute;
 }
