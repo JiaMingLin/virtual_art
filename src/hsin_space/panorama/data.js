@@ -9,10 +9,14 @@ var APP_DATA = {
           "size": 256,
           "fallbackOnly": true
         },
-        {
-          "tileSize": 512,
-          "size": 512
-        }
+        { "tileSize": 512, "size": 512 },
+        { "tileSize": 512, "size": 1024 },
+        { "tileSize": 512, "size": 2048 },
+        { "tileSize": 512, "size": 4096 },
+        { "tileSize": 512, "size": 8192 },
+        { "tileSize": 512, "size": 16384 },
+        { "tileSize": 512, "size": 32768 },
+        { "tileSize": 512, "size": 65536 }
       ],
       "faceSize": 512,
       "initialViewParameters": {

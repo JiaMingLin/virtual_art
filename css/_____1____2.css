@@ -62,120 +62,100 @@
 	transform: matrix(1,0,0,1,0,0);
 }
 #About {
-	left: 40vw;
-	top: 10vh;
-	position: absolute;
-	overflow: visible;
-	/*width: 283px;*/
+	overflow: hidden;
+	display: block;
+	width: 100%;
 	white-space: nowrap;
-	text-align: left;
+	text-align: center;
 	font-family: ReckonerBold;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 10vw;
 	color: rgba(61,61,61,1);
 	letter-spacing: 0.5px;
+	font-size: xx-large;
 }
 #About_hr{
-	position: absolute;
-    top: 16vh;
-    right: 37vw;
     height: 3px;
-    width: 85vw;
+    width: 85%;
     background-color: black;
+    margin: auto;
 }
 #ARTIST {
-	left: 39vw;
-	top: 20vh;
-	position: absolute;
-	overflow: visible;
-	/*width: 381px;*/
+	overflow: hidden;
+	display: block;
+	width: 100%;
 	white-space: nowrap;
-	text-align: left;
+	text-align: center;
 	font-family: ReckonerBold;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 10vw;
 	color: rgba(61,61,61,1);
 	letter-spacing: 0.5px;
+	font-size: xx-large;
 }
 #ARTIST_hr{
-	position: absolute;
-    top: 26vh;
-    right: 37vw;
-    height: 3px;
-    width: 85vw;
+	height: 3px;
+    width: 85%;
     background-color: black;
+    margin: auto;
 }
 
 #ART_WORK {
-	left: 34vw;
-	top: 30vh;
-	position: absolute;
-	overflow: visible;
-	/*width: 574px;*/
+	overflow: hidden;
+	display: block;
+	width: 100%;
 	white-space: nowrap;
-	text-align: left;
+	text-align: center;
 	font-family: ReckonerBold;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 10vw;
 	color: rgba(61,61,61,1);
 	letter-spacing: 0.5px;
+	font-size: xx-large;
 }
 #ART_WORK_hr{
-	position: absolute;
-    top: 36vh;
-    right: 37vw;
-    height: 3px;
-    width: 85vw;
+	height: 3px;
+    width: 85%;
     background-color: black;
+    margin: auto;
 }
 #MUSIC_PROTRAIT {
-	left: 35vw;
-	top: 42vh;
-	position: absolute;
-	overflow: visible;
-	/*width: 925px;*/
-	white-space: nowrap;
-	text-align: left;
-	font-family: ReckonerBold;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 10vw;
-	color: rgba(61,61,61,1);
-	letter-spacing: 0.5px;
+	overflow: hidden;
+display: block;
+width: 100%;
+white-space: nowrap;
+text-align: center;
+font-family: ReckonerBold;
+font-style: normal;
+font-weight: normal;
+color: rgb(113, 108, 108);
+letter-spacing: 0.5px;
+font-size: x-large;
 }
 #MUSIC_PROTRAIT_hr{
-	position: absolute;
-    top: 48vh;
-    right: 37vw;
-    height: 3px;
-    width: 65vw;
-    background-color: #89867e;
+	height: 3px;
+    width: 100%;
+    background-color: black;
+    margin: auto;
 }
 #WU_LI_LAB {
-	left: 44vw;
-	top: 52vh;
-	position: absolute;
-	overflow: visible;
-	/*width: 538px;*/
-	white-space: nowrap;
-	text-align: left;
-	font-family: ReckonerBold;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 10vw;
-	color: rgba(61,61,61,1);
-	letter-spacing: 0.5px;
+	overflow: hidden;
+display: block;
+width: 100%;
+white-space: nowrap;
+text-align: center;
+font-family: ReckonerBold;
+font-style: normal;
+font-weight: normal;
+color: rgb(113, 108, 108);
+letter-spacing: 0.5px;
+font-size: x-large;
 }
 #WU_LI_LAB_hr{
-	position: absolute;
-    top: 58vh;
-    right: 37vw;
-    height: 3px;
-    width: 65vw;
-    background-color: #89867e;
+	height: 3px;
+    width: 100%;
+    background-color: black;
+    margin: auto;
 }
 
 

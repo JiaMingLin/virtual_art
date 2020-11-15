@@ -16,46 +16,53 @@
 </head>
 <body>
 
-	<div id="cross_bar">
-		<!-- cross bar -->
-		<div class="cross_bar">
-			<img id="project_title" src="../img/project_title.png">
-			<img id="share" src="../img/share.png">
-			<div class="gn-icon-menu">
-				<img id="navi_icon" src="../img/navi_icon.png">
-			</div>
-		</div> <!-- cross bar end -->
+	<div id="main_container">
+	 	<div id="cross_bar">
+			<!-- cross bar -->
+			<div class="cross_bar">
+				<div class="gn-icon-menu">
+					<img id="navi_icon" src="../img/navi_icon.png">
+				</div>
+				<div class="project_title">
+					<img id="project_title" src="../img/project_title.png">
+				</div>
+				<div class="share">
+					<img id="share" src="../img/share.png">	
+				</div>
+			</div> <!-- cross bar end -->
 
-		<!-- scroll down arrow -->
-		<!-- <div class="down_arrow">
-			<svg class="Path_84" viewBox="2054.139 1609 155 79">
-				<path id="Path_84" d="M 2054.138916015625 1609 L 2130.138916015625 1688 L 2209.138916015625 1609"></path>
-			</svg>
-		</div> -->
-		<!-- scroll down arrow end -->
+			<!-- scroll down arrow -->
+			<!-- <div class="down_arrow">
+				<svg class="Path_84" viewBox="2054.139 1609 155 79">
+					<path id="Path_84" d="M 2054.138916015625 1609 L 2130.138916015625 1688 L 2209.138916015625 1609"></path>
+				</svg>
+			</div> -->
+			<!-- scroll down arrow end -->
 
-		<!-- navigation menu -->
-		<nav class="gn-menu-wrapper">
-			<div class="gn-scroller">
-				<ul class="gn-menu">
-					<li><a><span id="About">About</span><hr id="About_hr"></a></li>
-					<li><a><span id="ARTIST">ARTIST</span><hr id="ARTIST_hr"></a></li>
-					<li><a><span id="ART_WORK">ART WORK</span><hr id="ART_WORK_hr"></a>
-						<ul class="gn-submenu">
-							<li><span id="MUSIC_PROTRAIT" class="go_space">MUSIC PROTRAIT</span><hr id="MUSIC_PROTRAIT_hr"></li>
-							<li><span id="WU_LI_LAB" class="go_space">WU LI LAB</span><hr id="WU_LI_LAB_hr"></li>
-							<!-- <li><a>Videos</a></li> -->
-						</ul>
-					</li>
-				</ul>
-			</div>
-		</nav>
-		<!-- navigation menu end -->
+			<!-- navigation menu -->
+			<nav class="gn-menu-wrapper">
+				<div class="gn-scroller">
+					<ul class="gn-menu">
+						<li><a><span id="About">About</span><hr id="About_hr"></a></li>
+						<li><a><span id="ARTIST">ARTISTS</span><hr id="ARTIST_hr"></a></li>
+						<li><a><span id="ART_WORK">ART WORKS</span><hr id="ART_WORK_hr"></a>
+						<div id="gn-submenu-referance" style="height: 40vh; position: absolute; width: 0px"></div>
+						<div id="gn-submenu-container">
+							<ul class="gn-submenu">
+								<li><a><span id="MUSIC_PROTRAIT" class="go_space">MUSIC PROTRAIT</span><hr id="MUSIC_PROTRAIT_hr"></a></li>
+								<li><a><span id="WU_LI_LAB" class="go_space">WU LI LAB</span><hr id="WU_LI_LAB_hr"></a></li>
+								<!-- <li><a>Videos</a></li> -->
+							</ul>
+						</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<!-- navigation menu end -->
+		</div>
+
+		<iframe id="content_container" name="content_container" src="landing_page.html"></iframe>
 	</div>
-
-
-	<iframe id="content_container" name="content_container" src="landing_page.html"></iframe>
-
 	<!-- <p id = "screen_size" style="position: absolute; bottom: 10px"></p> -->
 	<script src="../js/classie.js"></script>
 	<script src="../js/gnmenu.js"></script>

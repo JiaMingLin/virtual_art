@@ -43,7 +43,7 @@
 	line-height: 10vw;
 	display: block;
 	text-align: center;
-	font-family: Arial-Black;
+	font-family: Helvetica;
 	font-style: normal;
 	font-weight: 900;
 	font-size: 8vw;
@@ -60,7 +60,7 @@
     line-height: 10vw;
     margin-top: -7.940483093261719px;
     text-align: left;
-    font-family: Arial-Black;
+    font-family: Helvetica;
     font-style: normal;
     font-weight: 900;
     font-size: 6vw;
@@ -90,10 +90,10 @@
     margin-top: 5px;
     line-height: 23px;
     text-align: left;
-    font-family: Avenir-Medium;
+    font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
-    font-size: 5vw;
+    font-size: medium;
     color: rgba(255,255,255,1);
     letter-spacing: 0.5px;
 }
@@ -108,10 +108,10 @@
     min-height: 250px;
     line-height: 23px;
     text-align: left;
-    font-family: Avenir-Medium;
+    font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
-    font-size: 5vw;
+    font-size: medium;
     color: rgba(255,255,255,1);
     letter-spacing: 0.5px;
 }

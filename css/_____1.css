@@ -15,13 +15,11 @@
 }
 #_1 {
 	/*position: absolute;*/
-	width: 100vw;
-	/*height: 9162.84px;*/
+	max-width: 100vh;
 	background-color: rgba(255,255,255,1);
-	overflow: hidden;
 	display: flex;
 	flex-direction: column;
-	--web-view-name: 工作區域 1;
+	/*--web-view-name: 工作區域 1;*/
 	--web-view-id: _1;
 	--web-scale-on-resize: true;
 	--web-enable-deep-linking: true;
@@ -35,53 +33,10 @@
 	overflow: visible;
 }
 
+
 #Group_15{
-	width: 100vw;
-	height: 100vh;
-}
-
-#Group_16 {
-	/*position: absolute;*/
-	width: 100vw;
-	height: 100vh;
-	/*left: 3px;*/
-	/*top: 145px;*/
-	/*background-image: url("../img/Group_15.png");*/
-	overflow: visible;
-}
-
-#Group_17{
-	width: 100vw;
-	height: 100vh;
-}
-#Group_18 {
-	position: relative;
-	width: 100vw;
-	height: 100vh;
-	/*left: 3px;*/
-	/*top: 1771px;*/
-	/*background-image: url("../img/Group_17.png");*/
-	overflow: visible;
-}
-
-#Group_20 {
-	position: relative;
-	width: 100vw;
-	height: 100vh;
-	/*left: 2px;*/
-	/*top: 3833px;*/
-	/*background-image: url("../img/Group_19.png");*/
-	overflow: visible;
-}
-
-#Group_22 {
-	position: relative;
-	width: 100vw;
-	height: 100vh;
-	/*left: 2px;*/
-	/*top: 3833px;*/
-	/*background-image: url("../img/Group_19.png");*/
-	overflow: visible;
+	width: 100%;
+	height: 100%;
 }
 
 #Rectangle_23 {
@@ -576,49 +531,35 @@
 	vertical-align: bottom;
 }
 #The_visible__and__the_invisibl {
-	/*left: 246.884px;
-	top: 264.494px;*/
-	left: 25vw;
-    top: 19vh;
-	position: absolute;
+	top: 19%;
+	width: 100%;
+	position: relative;
 	overflow: visible;
-	/*width: 950px;*/
 	white-space: nowrap;
 	text-align: left;
 	font-family: ReckonerBold;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 14vw;
+	font-size: xx-large;
 	color: rgba(255,255,255,1);
 	letter-spacing: 0.5px;
 }
 #RESISTglobalization {
 	transform: rotate(90deg);
     transform-origin: center;
-    left: -12vw;
-    top: 29.4vh;
     position: absolute;
     overflow: visible;
-    /* width: 783px; */
     white-space: nowrap;
-    line-height: 87.93991088867188px;
-    /* margin-top: -7.328327178955078px; */
     text-align: left;
     font-family: ReckonerBold;
     font-style: normal;
     font-weight: normal;
-    font-size: 8vw;
+    font-size: x-large;
     color: rgba(255,255,255,1);
     letter-spacing: 0.5px;
+    top: 29%;
 }
 
-#Group_32 {
-	position: relative;
-	width: 100vw;
-	height: 100vh;
-	overflow: visible;
-	background-color: #000000
-}
 
 #Group_27 {
 	/*width: 37vw;
@@ -634,240 +575,37 @@
 }
 #Music__Protrait {
 	left: 5%;
-    top: 5%;
+    top: 15%;
     position: relative;
     overflow: visible;
     /* width: 290px; */
     white-space: nowrap;
-    line-height: 7vw;
     margin-top: -6.993141174316406px;
     text-align: left;
     font-family: Arial-Black;
     font-style: normal;
     font-weight: bold;
-    font-size: 6vw;
+    font-size: large;
     color: rgba(255,255,255,1);
     letter-spacing: 0.5px;
 }
 #Kuo_Pei-Chi {
-	left: 5%;
+	left: 15%;
     top: 25%;
     position: relative;
     overflow: visible;
     /* width: 271px; */
     white-space: nowrap;
-    line-height: 4vw;
     margin-top: -4.390523910522461px;
     text-align: left;
     font-family: Arial-Black;
     font-style: normal;
     font-weight: bold;
-    font-size: 4vw;
+    font-size: small;
     color: rgba(255,255,255,1);
     letter-spacing: 0.5px;
 }
 
-
-/*
-#Rectangle_25 {
-	fill: rgba(0,0,0,1);
-}
-.Rectangle_25 {
-	position: absolute;
-	overflow: visible;
-	width: 1121px;
-	height: 2067px;
-	left: 0px;
-	top: 0px;
-}
-
-#Group_29 {
-	position: absolute;
-	width: 420.5px;
-	height: 420.5px;
-	left: 114.535px;
-	top: 780.292px;
-	overflow: visible;
-}
-#Group_28 {
-	position: absolute;
-	width: 420.5px;
-	height: 420.5px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#Rectangle_30 {
-	fill: rgba(0,0,0,0);
-	stroke: rgba(255,255,255,1);
-	stroke-width: 7px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 10;
-	shape-rendering: auto;
-}
-.Rectangle_30 {
-	position: absolute;
-	overflow: visible;
-	width: 412px;
-	height: 412px;
-	left: 603.535px;
-	top: 784.292px;
-}
-#Path_85 {
-	fill: rgba(255,255,255,1);
-}
-.Path_85 {
-	overflow: visible;
-	position: absolute;
-	width: 45.383px;
-	height: 29.5px;
-	left: 943.652px;
-	top: 1140.792px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#WuLi_Lab {
-	left: 639.498px;
-	top: 790.326px;
-	position: absolute;
-	overflow: visible;
-	width: 340px;
-	white-space: nowrap;
-	line-height: 77.46752166748047px;
-	margin-top: -6.993141174316406px;
-	text-align: left;
-	font-family: Arial-Black;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 63.481239318847656px;
-	color: rgba(255,255,255,1);
-	letter-spacing: 0.5px;
-}
-#Teng_Wen-Hsin {
-	left: 633.035px;
-	top: 975.353px;
-	position: absolute;
-	overflow: visible;
-	width: 347px;
-	white-space: nowrap;
-	line-height: 48.63658905029297px;
-	margin-top: -4.390523910522461px;
-	text-align: left;
-	font-family: Arial-Black;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 39.85554122924805px;
-	color: rgba(255,255,255,1);
-	letter-spacing: 0.5px;
-}
-#Group_31 {
-	position: absolute;
-	width: 420.5px;
-	height: 420.5px;
-	left: 114.535px;
-	top: 1339.019px;
-	overflow: visible;
-}
-#Group_30 {
-	position: absolute;
-	width: 420.5px;
-	height: 420.5px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#Rectangle_33 {
-	fill: rgba(0,0,0,0);
-	stroke: rgba(255,255,255,1);
-	stroke-width: 7px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 10;
-	shape-rendering: auto;
-}
-.Rectangle_33 {
-	position: absolute;
-	overflow: visible;
-	width: 412px;
-	height: 412px;
-	left: 603.535px;
-	top: 1343.019px;
-}
-#Path_86 {
-	fill: rgba(255,255,255,1);
-}
-.Path_86 {
-	overflow: visible;
-	position: absolute;
-	width: 45.383px;
-	height: 29.5px;
-	left: 943.652px;
-	top: 1699.519px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#Sites___Spaces {
-	left: 639.498px;
-	top: 1349.053px;
-	position: absolute;
-	overflow: visible;
-	width: 298px;
-	white-space: nowrap;
-	line-height: 77.46752166748047px;
-	margin-top: -6.993141174316406px;
-	text-align: left;
-	font-family: Arial-Black;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 63.481239318847656px;
-	color: rgba(255,255,255,1);
-	letter-spacing: 0.5px;
-}
-#Urich_Liu {
-	left: 635.035px;
-	top: 1597.078px;
-	position: absolute;
-	overflow: visible;
-	width: 213px;
-	white-space: nowrap;
-	line-height: 48.63658905029297px;
-	margin-top: -4.390523910522461px;
-	text-align: left;
-	font-family: Arial-Black;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 39.85554122924805px;
-	color: rgba(255,255,255,1);
-	letter-spacing: 0.5px;
-}
-#Rectangle_34 {
-	fill: rgba(0,0,0,0);
-	stroke: rgba(255,255,255,1);
-	stroke-width: 7px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 10;
-	shape-rendering: auto;
-}
-.Rectangle_34 {
-	position: absolute;
-	overflow: visible;
-	width: 412px;
-	height: 412px;
-	left: 605.5px;
-	top: 235.5px;
-}
-#Path_87 {
-	fill: rgba(255,255,255,1);
-}
-.Path_87 {
-	overflow: visible;
-	position: absolute;
-	width: 45.383px;
-	height: 29.5px;
-	left: 945.617px;
-	top: 592px;
-	transform: matrix(1,0,0,1,0,0);
-}*/
 #Music_Protrait {
 	left: 16%;
     top: 15%;
@@ -968,20 +706,34 @@
     letter-spacing: 0.5px;
 }
 
+#main_container{
+	height: 100vh;
+	max-width: 100vh;
+	margin:0 auto;
+	overflow: hidden;
+}
+
 #cross_bar{
 	/*display: inline-block;*/
 	/*height: 100vh;*/
-	width:100vw;	
+	width:100%;	
+	box-sizing: border-box;
+	height: 12%;
 }
 .cross_bar{
-	position: fixed;
-	height: 12vh;
-	width: 100vw;
+	height: 100%;
+	width: 100%;
 	z-index: 99;
 	background-color: #000000
 }
+.project_title{
+	height: 100%;
+	position: relative;
+	display: inline-block;
+	width: 70%;
+}
 #project_title{
-	width: 55vw;
+	width: 90%;
 	position: absolute;
     top: 0;
     bottom: 0;
@@ -989,26 +741,36 @@
     right: 0;
     margin: auto;
 }
-#share{
-	width: 8%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 15px;
-    margin: auto;
+.share{
+	position: relative;
+	height: 100%;
+	width: 11%;
+	display: inline-block;
+	
 }
-#navi_icon{
-	width: 100%;
+#share{
+	width: 65%;
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 15px;
     margin: auto;
+    left: 0;
+	right: 0;
+}
+
+#navi_icon{
+	width: 70%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	/*left: 0;*/
+	right:0;
+	margin: auto;
 }
 .down_arrow{
 	position: fixed;
 	height: 89.676px;
-	width: 100vw;
+	width: 100%;
 	z-index: 99;
 	bottom: 20px;
 }
@@ -1021,12 +783,24 @@
     right: 35%;
 }
 .go_space{
-	position: absolute;
+	/*position: absolute;*/
     bottom: 13%;
     /* z-index: 200; */
     display: block;
     width: 25%;
     right: 15%;
+}
+
+.landing_background{
+	position: inherit;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	background-color: #000000;
+}
+.landing_background .bg_img{
+	width: 100%;
+	height: 100vh;
 }
 
 #about_table{
@@ -1036,7 +810,6 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    top: 18%;
 }
 
 .about_table_col{

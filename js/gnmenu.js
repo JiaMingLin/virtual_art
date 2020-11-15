@@ -55,6 +55,16 @@ function changeIFrame(location){
 				changeIFrame(loc);
 			});
 
+			var sub_menu_height = $("#gn-submenu-referance").height();
+			$("#ART_WORK").click(function(){
+				var container_height = $("#gn-submenu-container").height();
+				if(container_height == 0){
+					$("#gn-submenu-container").animate({height:sub_menu_height}, 200);
+				}else{
+					$("#gn-submenu-container").animate({height:0}, 200);
+				}
+			});
+
 			$("#project_title").click(function(){
 				changeIFrame("landing_page.html");
 			});
