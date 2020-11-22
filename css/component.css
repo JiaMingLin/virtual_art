@@ -113,6 +113,7 @@
 }
 
 .gn-scroller {
+		margin-top: 7vh;
 		position: relative;
 		overflow-y: scroll;
 		width: 100%;
@@ -123,6 +124,9 @@
 .gn-menu {
 		/*border-bottom: 1px solid #c6d0da;*/
 		text-align: left;
+}
+.gn-menu li{
+	height: 8vh;
 }
 
 /*.gn-menu li:not(:first-child),
@@ -344,4 +348,5 @@ input.gn-search:focus {
 	right: 7.5%;
 	position: absolute;
 	overflow: hidden;
+	margin-top: 4vh;
 }
