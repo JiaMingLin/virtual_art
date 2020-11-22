@@ -15,5 +15,4 @@ $(".go_space").click(function(e){
 	}
 	window.top.changeIFrame(loc);
 });
-
 });

@@ -241,7 +241,7 @@
 	/*height: 100vh;*/
 	width:100%;	
 	box-sizing: border-box;
-	height: 12%;
+	height: 12vh;
 }
 .cross_bar{
 	height: 100%;
@@ -305,27 +305,6 @@
     width: 30%;
     right: 35%;
 }
-.go_space{
-	/*position: absolute;*/
-    bottom: 13%;
-    /* z-index: 200; */
-    display: block;
-    width: 25%;
-    right: 15%;
-}
-
-.landing_background{
-	position: inherit;
-	width: 100%;
-	height: 100vh;
-	overflow: hidden;
-	background-color: #000000;
-}
-.landing_background .bg_img{
-	width: 100%;
-	height: 100vh;
-}
-
 .welcome_wave{
 	position: absolute;
     height: 55vh;
