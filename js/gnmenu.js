@@ -59,7 +59,7 @@ function changeIFrame(location){
 			$("#ART_WORK").click(function(){
 				var container_height = $("#gn-submenu-container").height();
 				if(container_height == 0){
-					$("#gn-submenu-container").animate({height:sub_menu_height}, 200);
+					$("#gn-submenu-container").animate({height:'200px'}, 200);
 				}else{
 					$("#gn-submenu-container").animate({height:0}, 200);
 				}
