@@ -11,14 +11,18 @@ $(".go_space").click(function(e){
 	var clicked_id = $(this).attr("id");
 	if(clicked_id == "MUSIC_PROTRAIT"){
 		loc = "music_protrait.html";
+		window.top.changeIFrame(loc);
 	}else if(clicked_id == "WU_LI_LAB"){
 		loc = "hsin_space/panorama/";
+		window.top.changeIFrame(loc);
 	}else if(clicked_id == "CODE_FILE"){
 
 	}else if(clicked_id == "EDGE_GIRLS"){
-		loc = 'https://linktr.ee/edgegirls';
+		// loc = 'https://linktr.ee/edgegirls';
 		// window.top.changeLocation(loc);
+	}else{
+		window.top.changeIFrame(loc);
 	}
-	window.top.changeIFrame(loc);
+	
 });
 });
