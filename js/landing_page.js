@@ -8,10 +8,16 @@ var r = window.devicePixelRatio || 1;
 
 $(".go_space").click(function(e){
 	var loc = "landing_page.html"
-	if(e.target.id == "MUSIC_PROTRAIT"){
+	var clicked_id = $(this).attr("id");
+	if(clicked_id == "MUSIC_PROTRAIT"){
 		loc = "music_protrait.html";
-	}else if(e.target.id == "WU_LI_LAB"){
+	}else if(clicked_id == "WU_LI_LAB"){
 		loc = "hsin_space/panorama/";
+	}else if(clicked_id == "CODE_FILE"){
+
+	}else if(clicked_id == "EDGE_GIRLS"){
+		loc = 'https://linktr.ee/edgegirls';
+		// window.top.changeLocation(loc);
 	}
 	window.top.changeIFrame(loc);
 });

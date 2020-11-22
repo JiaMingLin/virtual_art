@@ -12,6 +12,11 @@
 function changeIFrame(location){
 	window.frames["content_container"].location = location;
 }
+
+function changeLocation(loc){
+	location.replace(loc)
+}
+
 ;( function( window ) {
 	
 	'use strict';
