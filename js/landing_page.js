@@ -9,6 +9,7 @@ var r = window.devicePixelRatio || 1;
 $(".go_space").click(function(e){
 	var loc = "landing_page.html"
 	var clicked_id = $(this).attr("id");
+	console.log(clicked_id);
 	if(clicked_id == "MUSIC_PROTRAIT"){
 		loc = "music_protrait.html";
 		window.top.changeIFrame(loc);
@@ -17,6 +18,7 @@ $(".go_space").click(function(e){
 		window.top.changeIFrame(loc);
 	}else if(clicked_id == "CODE_FILE"){
 		loc = 'urich/panorama/';
+		window.top.changeIFrame(loc);
 	}else if(clicked_id == "EDGE_GIRLS"){
 		// loc = 'https://linktr.ee/edgegirls';
 		// window.top.changeLocation(loc);
