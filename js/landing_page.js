@@ -16,7 +16,7 @@ $(".go_space").click(function(e){
 		loc = "hsin_space/panorama/";
 		window.top.changeIFrame(loc);
 	}else if(clicked_id == "CODE_FILE"){
-
+		loc = 'urich/panorama/';
 	}else if(clicked_id == "EDGE_GIRLS"){
 		// loc = 'https://linktr.ee/edgegirls';
 		// window.top.changeLocation(loc);
